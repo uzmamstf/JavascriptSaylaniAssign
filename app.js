@@ -307,7 +307,7 @@
 // document.write("You will need " + perDayTillLive +" "+ snack + " to last you until the ripe old age of " + myMaxAge); 
 
 
-//                                      CHAPTER 4 END
+//                                      CHAPTER 5 END
 
 //                             CHAPTER 6 TO 9 MATHS EXPRESSION
 
@@ -351,6 +351,225 @@
 
 
 //3. Write a program that takes input a name from user & greet the user.
-var userName = prompt("Please enter your name", "");
+// var userName = prompt("Please enter your name", "");
+// document.write("Hello " + userName + "!");
 
-document.write("Hello " + userName + "!");
+//5. Write a program to take input a number from user & display it’s multiplication table on your browser. 
+//If user does not enter a new number, multiplication table of 5 should be displayed by default. 
+// var tableNum = prompt("Enter a Number to print a table", "");
+// var num = 5;
+// if (tableNum == " ") {
+//   for (var i = 1; i <= 10; i++) {
+//     document.write(tableNum + " x " + i + "= " + tableNum * i + "<br>");
+//     // document.write(tableNum * i + "<br>");
+//   }
+// }
+// else {
+//   for (var j = 1; j <= 10; j++) {
+//     document.write(num * j + "<br>");
+//   }
+
+// }
+// 6. Take
+// a) Take three subjects name from user and store them in 3 different variables.
+// b) Total marks for each subject is 100, store it in another variable.
+// c) Take obtained marks for first subject from user and stored it in different variable.
+// d) Take obtained marks for remaining 2 subjects from user and store them in variables.
+// e) Now calculate total marks and percentage and show the result in browser like this.(Hint: user table)
+// var subj1 = prompt("Enter a Subject 1", " ");
+// var subj2 = prompt("Enter a Subject 2", " ");
+// var subj3 = prompt("Enter a Subject 3", " ");
+// var totalMarksForEachSubject = 100;
+// var sumOFTotalMarks = totalMarksForEachSubject + totalMarksForEachSubject + totalMarksForEachSubject;
+// var obtMarksSub1 = prompt("Enter Obtained Marks for Subject 1", " ");
+// var obtMarksSub2 = prompt("Enter Obtained Marks for Subject 2", " ");
+// var obtMarksSub3 = prompt("Enter Obtained Marks for Subject 3", " ");
+// var sumOfAllSubjectsMarks = parseInt(obtMarksSub1) + parseInt(obtMarksSub2) + parseInt(obtMarksSub3);
+// var percentFormulae1 = (obtMarksSub1 / totalMarksForEachSubject) * 100
+// var percentFormulae2 = (obtMarksSub2 / totalMarksForEachSubject) * 100
+// var percentFormulae3 = (obtMarksSub3 / totalMarksForEachSubject) * 100
+// var finalPercentage = (sumOFTotalMarks / sumOFTotalMarks) * 100;
+// document.write(sumOfAllSubjectsMarks);
+// document.write("<table>")
+// document.write("<tr>")
+// document.write("<th>Subject</th>")
+// document.write("<th>Total Marks</th>")
+// document.write("<th>Obt Marks</th>")
+// document.write("<th>Percentage</th>")
+// document.write("</t>")
+
+// document.write("<tr>")
+// document.write("<td>" + subj1 + "</td>")
+// document.write("<td>" + totalMarksForEachSubject + "</td>")
+// document.write("<td>" + obtMarksSub1 + "</td>")
+// document.write("<td>" + percentFormulae1 + "%" + "</td>")
+// document.write("</tr>")
+
+// document.write("<tr>")
+// document.write("<td>" + subj1 + "</td>")
+// document.write("<td>" + totalMarksForEachSubject + "</td>")
+// document.write("<td>" + obtMarksSub2 + "</td>")
+// document.write("<td>" + percentFormulae2 + "%" + "</td>")
+// document.write("</tr>")
+
+// document.write("<tr>")
+// document.write("<td>" + subj3 + "</td>")
+// document.write("<td>" + totalMarksForEachSubject + "</td>")
+// document.write("<td>" + obtMarksSub3 + "</td>")
+// document.write("<td>" + percentFormulae3 + "%" + "</td>")
+// document.write("</tr>")
+
+// document.write("<tr>")
+// document.write("<td>" + " " + "</td>")
+// document.write("<td>" + sumOFTotalMarks + "</td>")
+// document.write("<td>" + sumOfAllSubjectsMarks + "</td>")
+// document.write("<td>" + finalPercentage + "%" + "</td>")
+// document.write("</tr>")
+// document.write("</table>")
+
+
+//                                          CHAP 6 TO 9 END
+//                                  USER INPUT & CONDITIONAL STATEMENT 
+//1. Write a program to take “city” name as input from user. 
+//If user enters “Karachi”, welcome the user like this: “Welcome to city of lights” 
+
+// var userInput = prompt("Enter Your city name", " ");
+// if(userInput === "Karachi"){
+//     document.write("Welcome to the city of light");
+// }
+// else{
+//     document.write("Welcome");
+
+// }
+
+// 2. Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. 
+// If the user is female, give the message: Good Morning Ma’am.
+
+//1. Write a program to take “city” name as input from user. 
+//If user enters “Karachi”, welcome the user like this: “Welcome to city of lights” 
+
+// var userInput = prompt("Enter Your grnder", " ");
+// if(userInput === "male"){
+//     document.write(" Good Morning Sir");
+// }
+// else if(userInput === "female"){
+//     document.write(" Good Morning Ma’am");
+// }
+// else{
+//     document.write("Good Morning" + userInput);
+
+// }
+
+//3. Write a program to take input color of road traffic signal from the user & show the message according to this table:
+// var colorSignal = prompt("Enter any one traffic signal color")
+// if (colorSignal === "red")
+//     document.write("Must Stop");
+// else if (colorSignal === "yellow")
+//     document.write("Ready to move");
+// else if (colorSignal === "green")
+//     document.write("move now ");
+// else{
+//     document.write("Please enter correct color");
+// }
+
+
+// 4. Write a program to take input remaining fuel in car (in litres) from user.
+// If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car”
+// var fuelAmount = prompt("Enter Fuel Amount in litres")
+// if( fuelAmount < "0.25 litres")
+// document.write("Please refill the fuel in your car");
+// else{
+//     document.write("Have a safe journey");
+// }
+
+//5. Run this script, & check whether alert message would be displayed or not. Record the outputs.
+//a. 
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// } // Output == alertbox
+
+//b. 
+// var b = 82;
+// if (b++ === 83) {
+//     alert("given condition for variable b is true");
+// }
+
+// //c.
+// var c = 12;
+// if (c++ === 13) {
+//     alert("condition 1 is true");
+// // }
+// if (c === 13) {
+//     alert("condition 2 is true");
+// } if (++c < 14) {
+//     alert("condition 3 is true");
+// }
+// if (c === 14) {
+//     alert("condition 4 is true");
+// }
+
+// //d.
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals");
+// }
+
+//e. 
+// if (true) { 
+//     alert("True"); 
+// }
+// if (false) {
+//     alert("False");
+// }
+
+
+//f.
+// if ("car" < "cat") {
+//     alert("car is smaller than cat")
+// }
+
+//6. Write a program to take input the marks obtained in three subjects & total marks.
+ //compute & show the resulting percentage on your page.
+//totalmarks=300;
+// obtMarks= prompt("enter obtained marks to calculate the percentage out of 300","");
+// percenatge = obtMarks / totalmarks * 100;
+// document.write("<h3>Marks Sheet</h3>");
+// document.write("Total Marks:" + totalmarks+ "<br>");
+// document.write("Obtained Marks:" + obtMarks+ "<br>");
+// document.write(" Marks:Obtained" + obtMarks+ "<br>");
+// if(percenatge >= 80){
+//     document.write("Reamrks: Excellent"+ "<br>");
+//     document.write("Grade : A-One") +"<br>";
+// }
+
+// else if(percenatge >= 70){
+//     document.write("Reamrks: Good")+ "<br>";
+//     document.write("Grade : A" +"<br>");
+// }
+
+// else if(percenatge >= 60){
+//     document.write("Reamrks: youneed to improve" +"<br>");
+//     document.write("Grade : B" +"<br>");
+// }
+
+// else if(percenatge >= 50){
+//     document.write("Reamrks: sorry" + "<br>");
+//     document.write("Grade : Fail "+"<br>");
+// }
+
+//7. Guess game: Store a secret number (ranging from 1 to 10) in a variable.
+//  Prompt user to guess the secret number. 
+//  a. If user guesses the same number, show “Bingo! Correct answer”. 
+// b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”. 
+
+var secretNumber = 3;
+var ifUserClosedSecretNumber = secretNumber=+1;
+var guessSecretNumber = prompt("Guess the NUmber", "");
+if(secretNumber === guessSecretNumber)
+{
+    document.write("“Bingo! Correct answer”");
+}
+els
